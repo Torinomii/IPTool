@@ -1,0 +1,6 @@
+D:\Users\debot\OneDrive\Projects\Q_IPTool_T1\Q_IPTool_T1\bin\Release\Q_IPTool_T1.exe.config
+D:\Users\debot\OneDrive\Projects\Q_IPTool_T1\Q_IPTool_T1\bin\Release\Q_IPTool_T1.exe
+D:\Users\debot\OneDrive\Projects\Q_IPTool_T1\Q_IPTool_T1\bin\Release\Q_IPTool_T1.pdb
+D:\Users\debot\OneDrive\Projects\Q_IPTool_T1\Q_IPTool_T1\obj\Release\Q_IPTool_T1.csproj.CoreCompileInputs.cache
+D:\Users\debot\OneDrive\Projects\Q_IPTool_T1\Q_IPTool_T1\obj\Release\Q_IPTool_T1.exe
+D:\Users\debot\OneDrive\Projects\Q_IPTool_T1\Q_IPTool_T1\obj\Release\Q_IPTool_T1.pdb
