@@ -36,7 +36,7 @@ namespace Q_IPTool_T1
             if (IfType.KeyChar == '1')//DHCP
             {
                 Console.Clear();
-                Console.WriteLine(Rcmd.CMDEnv("netsh interface ip set address \"以太网\" DHCP" + "&exit"));
+                Console.WriteLine(Rcmd.CMDEnv("netsh interface ip set address \"Ethernet\" DHCP" + "&exit"));//Chinese System (netsh interface ip set address \"以太网\" static" + " " + IPaddr + " " + Netmask + " " + Gateway + "&exit")
                 Console.ReadKey();
 
             }
@@ -70,13 +70,13 @@ namespace Q_IPTool_T1
                 if (IfYN.Key == ConsoleKey.Enter)
                 {
 
-                    Console.WriteLine(Rcmd.CMDEnv("netsh interface ip set address \"以太网\" static" +" "+ ReadIP + " " + ReadNetmask + " " + ReadGateWay + "&exit"));//English System (netsh interface ip set address \"Ethernet\" static" + " " + IPaddr + " " + Netmask + " " + Gateway + "&exit")
+                    Console.WriteLine(Rcmd.CMDEnv("netsh interface ip set address \"Ethernet\" static" +" "+ ReadIP + " " + ReadNetmask + " " + ReadGateWay + "&exit"));//Chinese System (netsh interface ip set address \"以太网\" static" + " " + IPaddr + " " + Netmask + " " + Gateway + "&exit")
                     Console.WriteLine(Rcmd.CMDEnv("ipconfig" + "&exit"));
                     Console.ReadKey();
                 }
                 if (IfYN.KeyChar =='y')
                 {
-                    Console.WriteLine(Rcmd.CMDEnv("netsh interface ip set address \"以太网\" static"+ " " + ReadIP + " " + ReadNetmask + " " + ReadGateWay + "&exit"));
+                    Console.WriteLine(Rcmd.CMDEnv("netsh interface ip set address \"Ethernet\" static"+ " " + ReadIP + " " + ReadNetmask + " " + ReadGateWay + "&exit"));
                     Console.WriteLine(Rcmd.CMDEnv("ipconfig" + "&exit"));
                     Console.ReadKey();
                 }
