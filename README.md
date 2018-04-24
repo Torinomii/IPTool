@@ -1,4 +1,9 @@
 # IPTool
-a small utility app in C#,quick Set ip on console
+一个使用C#制作的IP工具,方便自己检查设备.
+写完后感觉自己到底写了些什么鬼垃圾玩意.............
 
-this app need run as admin 
+需要使用管理员权限运行.
+
+1.预定添加IP监控,失败时添加日志.
+2.预定添加DHCP服务.
+3.预定添加&@!*7.>"\@#
